@@ -6,7 +6,11 @@
  * @see https://github.com/zendframework/ZFTool
  */
 return array(
-    'modules' => array('Application','JzArticle'),
+    'modules' => array(
+        'Application',
+        'JzArticle',
+        'JzCMS'
+        ),
     'module_listener_options' => array(
         'module_paths' => array(
             './module',
